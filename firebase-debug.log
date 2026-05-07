@@ -1,0 +1,49 @@
+[debug] [2026-05-02T20:33:06.664Z] ----------------------------------------------------------------------
+[debug] [2026-05-02T20:33:06.667Z] Command:       D:\node.exe C:\Users\Malak\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2026-05-02T20:33:06.667Z] CLI Version:   15.16.0
+[debug] [2026-05-02T20:33:06.667Z] Platform:      win32
+[debug] [2026-05-02T20:33:06.667Z] Node Version:  v24.15.0
+[debug] [2026-05-02T20:33:06.667Z] Time:          Sat May 02 2026 23:33:06 GMT+0300 (Eastern European Summer Time)
+[debug] [2026-05-02T20:33:06.667Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-05-02T20:33:07.816Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-05-02T20:33:07.816Z] > authorizing via signed-in user (malkdsalah@gmail.com)
+[debug] [2026-05-02T20:33:07.816Z] [iam] checking project shoes-website-8a953 for permissions ["firebase.projects.get"]
+[debug] [2026-05-02T20:33:07.817Z] Checked if tokens are valid: true, expires at: 1777757286296
+[debug] [2026-05-02T20:33:07.817Z] Checked if tokens are valid: true, expires at: 1777757286296
+[debug] [2026-05-02T20:33:07.818Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/shoes-website-8a953:testIamPermissions [none]
+[debug] [2026-05-02T20:33:07.818Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/shoes-website-8a953:testIamPermissions  x-goog-user-project=shoes-website-8a953
+[debug] [2026-05-02T20:33:07.818Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/shoes-website-8a953:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-05-02T20:33:09.080Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/shoes-website-8a953:testIamPermissions 200
+[debug] [2026-05-02T20:33:09.080Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/shoes-website-8a953:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-05-02T20:33:09.080Z] Checked if tokens are valid: true, expires at: 1777757286296
+[debug] [2026-05-02T20:33:09.080Z] Checked if tokens are valid: true, expires at: 1777757286296
+[debug] [2026-05-02T20:33:09.081Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/shoes-website-8a953/services/cloudresourcemanager.googleapis.com [none]
+[debug] [2026-05-02T20:33:09.081Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/shoes-website-8a953/services/cloudresourcemanager.googleapis.com  x-goog-user-project=shoes-website-8a953
+[debug] [2026-05-02T20:33:09.930Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/shoes-website-8a953/services/cloudresourcemanager.googleapis.com 200
+[debug] [2026-05-02T20:33:09.930Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/shoes-website-8a953/services/cloudresourcemanager.googleapis.com [omitted]
+[debug] [2026-05-02T20:33:09.938Z] Checked if tokens are valid: true, expires at: 1777757286296
+[debug] [2026-05-02T20:33:09.938Z] Checked if tokens are valid: true, expires at: 1777757286296
+[debug] [2026-05-02T20:33:09.938Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/shoes-website-8a953 [none]
+[debug] [2026-05-02T20:33:10.262Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/shoes-website-8a953 200
+[debug] [2026-05-02T20:33:10.262Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/shoes-website-8a953 {"projectNumber":"241383192747","projectId":"shoes-website-8a953","lifecycleState":"ACTIVE","name":"Shoes Website","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2026-05-02T20:21:20.667Z"}
+[info] 
+[info] === Serving from 'D:\karma-master'...
+[info] 
+[debug] [2026-05-02T20:33:10.266Z] Checked if tokens are valid: true, expires at: 1777757286296
+[debug] [2026-05-02T20:33:10.266Z] Checked if tokens are valid: true, expires at: 1777757286296
+[debug] [2026-05-02T20:33:10.266Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/shoes-website-8a953/sites 
+[debug] [2026-05-02T20:33:11.798Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/shoes-website-8a953/sites 200
+[debug] [2026-05-02T20:33:11.798Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/shoes-website-8a953/sites {"sites":[{"name":"projects/shoes-website-8a953/sites/shoes-website-8a953","defaultUrl":"https://shoes-website-8a953.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2026-05-02T20:33:11.799Z] Checked if tokens are valid: true, expires at: 1777757286296
+[debug] [2026-05-02T20:33:11.799Z] Checked if tokens are valid: true, expires at: 1777757286296
+[debug] [2026-05-02T20:33:11.799Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shoes-website-8a953/webApps/-/config [none]
+[debug] [2026-05-02T20:33:12.842Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shoes-website-8a953/webApps/-/config 200
+[debug] [2026-05-02T20:33:12.842Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shoes-website-8a953/webApps/-/config {"projectId":"shoes-website-8a953","storageBucket":"shoes-website-8a953.firebasestorage.app","apiKey":"AIzaSyAyiXN9Sa233brb_Se-sKJbK7_ZP5Wphqw","authDomain":"shoes-website-8a953.firebaseapp.com","messagingSenderId":"241383192747","projectNumber":"241383192747","version":"2"}
+[debug] [2026-05-02T20:33:12.849Z] Checked if tokens are valid: true, expires at: 1777757286296
+[debug] [2026-05-02T20:33:12.849Z] Checked if tokens are valid: true, expires at: 1777757286296
+[debug] [2026-05-02T20:33:12.849Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shoes-website-8a953 [none]
+[debug] [2026-05-02T20:33:13.237Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shoes-website-8a953 200
+[debug] [2026-05-02T20:33:13.238Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shoes-website-8a953 {"projectId":"shoes-website-8a953","projectNumber":"241383192747","displayName":"Shoes Website","name":"projects/shoes-website-8a953","resources":{"hostingSite":"shoes-website-8a953"},"state":"ACTIVE","etag":"1_b6ed0196-9925-493f-825b-49dd6d92227c"}
+[info] i  hosting[shoes-website-8a953]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[shoes-website-8a953]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
