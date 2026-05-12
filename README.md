@@ -8,7 +8,11 @@ A modern and responsive shoe store website built using pure HTML, CSS, and JavaS
 
 ## 🌐 Live Demo
 
-🔗 [malk1hany.github.io/Shoes-Wedsite](https://malk1hany.github.io/Shoes-Website/)
+🔗 GitHub Pages:
+https://malk1hany.github.io/Shoes-Wedsite/
+
+🔗 Firebase Hosting:
+https://shoes-website-8a953.web.app/
 
 ---
 
